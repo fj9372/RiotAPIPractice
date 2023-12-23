@@ -1,7 +1,7 @@
 import requests
 
 def testMethod(name):
-    api_key = "RGAPI-dd6b6804-aa31-4306-b124-cc7b9d853021"
+    api_key = ""
     user_url = "https://na1.api.riotgames.com/lol/summoner/v4/summoners/by-name/" + name + '?api_key=' + api_key
     user = requests.get(user_url).json()
 
